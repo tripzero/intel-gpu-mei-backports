@@ -1,0 +1,10 @@
+version: '1'
+include: linux.yml
+components:
+  module:
+    type: git
+    repository: https://github.com/intel-innersource/drivers.gpu.kernel.backporting.releases.git
+    branch: redhat/main
+    revision: bf3e82f7819d92b2c4fbcc2b73e4173b265dd539
+    clone_depth: 50
+    dest_dir: module

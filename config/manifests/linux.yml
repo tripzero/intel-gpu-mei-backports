@@ -1,0 +1,20 @@
+version: '1'
+components:
+  firmware:
+    type: artifactory
+    root_url: https://gfx-assets-build.fm.intel.com/artifactory
+    asset_path: linux-i915-builds/ci
+    asset_name: prerelease
+    asset_version: linux-i915-ci-prerelease-155
+    asset_patterns:
+    - linux/rhel/8.5/intel-fw-*
+    dest_dir: firmware
+  agama:
+    type: artifactory
+    root_url: https://gfx-assets-build.intel.com/artifactory
+    asset_path: agama-builds/ci
+    asset_name: prerelease
+    asset_version: agama-ci-prerelease-350
+    asset_patterns:
+    - linux/rhel/8.5/**
+    dest_dir: agama
