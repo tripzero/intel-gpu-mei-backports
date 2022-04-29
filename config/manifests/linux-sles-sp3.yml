@@ -1,0 +1,10 @@
+version: '1'
+include: linux.yml
+components:
+  module_sles15_sp3:
+    type: git
+    repository: https://github.com/intel-innersource/drivers.gpu.kernel.backporting.releases.git
+    branch: suse15sp3/main
+    revision: ea9df37cbd4b718fc549dd0fb7a5a4644bfe0a94
+    clone_depth: 20
+    dest_dir: module

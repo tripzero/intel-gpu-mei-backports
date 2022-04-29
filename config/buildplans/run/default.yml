@@ -1,0 +1,4 @@
+---
+systems:
+- buildplan: linux-sles-sp3.yml
+  name: linux/sles-sp3
