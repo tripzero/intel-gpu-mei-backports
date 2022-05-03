@@ -1,6 +1,6 @@
 # Intel® Converged Security Engine Backports
 
-This repo holds backports of the pmt driver.
+This repo holds backports of the cse driver.
 
 The driver is provided as a DKMS module targeting distinct
 versions of various distros. Each backport is on a topic 
