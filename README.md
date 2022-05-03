@@ -1,6 +1,6 @@
 # Intel® Converged Security Engine Backports
 
-This repo holds backports of the pmt driver.
+This repo holds backports of the cse driver.
 
 The driver is provided as a DKMS module targeting distinct
 versions of various distros. Each backport is on a topic 
@@ -14,7 +14,7 @@ collection within https://github.com/intel-gpu includes:
   - [i915](https://github.com/intel-gpu/intel-gpu-i915-backports) - The main graphics driver (includes a compatible DRM subsystem and dmabuf if necessary).
   - [cse](https://github.com/intel-gpu/intel-gpu-cse-backports) - Converged Security Engine
   - [pmt](https://github.com/intel-gpu/intel-gpu-pmt-backports) - Intel Platform Telemetry
-  - [firmware](https://github.com/intel-gpu/intel-gpu-firmware) - Contains firmware required by i915.  
+  - [firmware](https://github.com/intel-gpu/intel-gpu-firmware) - Contains firmware required by i915.
 
 Each project is tagged consistently so when pulling these repos pull the same tag.
 
